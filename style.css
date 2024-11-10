@@ -1,66 +1,103 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
 
 
 body {
     background-color: rgb(5, 236, 206);
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
 
-h1, h2, h3, h4, h5, h6 {
-    color: rgb(255, 0, 140);
+.container {
+    margin: 10px ;
+    padding: 10px;      
 }
+
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1060px;
+    margin: 0 auto 10px;
+    
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 76px;
+    width: 200px;
+   
+
+}
+
+.slogan{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 620px;
+    font-size: 17px;
+    line-height: 1;
+    
+}
+
+.slogan1, .slogan2{
+    color: rgb(255, 0, 140);  
+
+}
+
+
+.slogan1{
+    font-size: 42px; 
+}
+
+.slogan2{
+    font-size: 26px; 
+    
+}
+
 
 a {
 
     color: rgb(255, 0, 140);
     text-decoration: none;
-}
-
-ul{
-    list-style-type: none;
-}
-
-/*.container{
-    margin: 10px;
-    
-       
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 270px;
-    max-width: 1045px;
-    gap: 20px;
-}
-
-
-
-.name{
-    color: white;
-    font-size: 70px;
-    font-weight: bold;
-}
-.slogan{
-    width: 200px;
-    height: 200px;
-    
     
 }
-
-
-
 
 
 .menu{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 10px;
-
+    max-width: 1060px;
+    margin: 0 auto;
+    
+    
+    
 }
+
+
+ul{
+    list-style-type: none;
+}
+
+
+
+
+
 
